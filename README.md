@@ -8,6 +8,8 @@ From an R(Q) profile with a predefined Q binning, we predict the values
 of the two layer thicknesses, their SLD, their roughness parameters, and
 the substrate's roughness.
 
+![prediction](images/haynes-down-refl-sld.png)
+
 ## What's in the repo?
 The `data` directory contains the two reflectivity data sets measured at the Magnetism Reflectometer at ORNL.
 
