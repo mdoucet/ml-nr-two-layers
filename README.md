@@ -13,11 +13,11 @@ The `data` directory contains the two reflectivity data sets measured at the Mag
 
 The `data/training_data` directory includes the neural network model. 
 
-     - `haynes.h5` and `haynes.json` are TensorFlow files describing the trained model.
-     - 'haynes_q_values.npy` contains the Q points used in the input layer.
-     - `haynes_history.json` contains the loss value as a function of epoch for the trained model.
-     - `haynes_pars.npy` contains the structure parameters for the training set.
-     - Because the R(Q) data of the training set is too large, it wasn't included in the repo but can be computed from the structure parameters.
+  * `haynes.h5` and `haynes.json` are TensorFlow files describing the trained model.
+  * 'haynes_q_values.npy` contains the Q points used in the input layer.
+  * `haynes_history.json` contains the loss value as a function of epoch for the trained model.
+  * `haynes_pars.npy` contains the structure parameters for the training set.
+  * Because the R(Q) data of the training set is too large, it wasn't included in the repo but can be computed from the structure parameters.
 
 The `notebooks` directory contains example notebooks that loads and
 uses the trained neural network.
