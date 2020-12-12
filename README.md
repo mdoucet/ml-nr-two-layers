@@ -1,6 +1,8 @@
 # Machine Learning for Reflectometry
 M. Doucet, R. Archibald, W. Heller
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4318079.svg)](https://doi.org/10.5281/zenodo.4318079)
+
 Machine learning code to determine a thin film structure from a 
 two-layer thin film measured with neutron reflectometry.
 
