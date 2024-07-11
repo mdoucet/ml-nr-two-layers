@@ -30,4 +30,7 @@ uses the trained neural network.
 TensorFlow was used to handle the neural network. A conda environment
 can easily be created using the `play_env.yaml` file using
 
+```
     conda env create -f play_env.yml
+    conda activate mlpaper
+```

@@ -1,10 +1,9 @@
-name: playground
+name: mlpaper
 dependencies:
 - numpy
-- nb_conda
-- python=3.7
-- wxpython
+- python=3.11
 - pip:
+  - notebook
   - pandas
   - plotly
   - scipy
@@ -14,4 +13,4 @@ dependencies:
   - tensorflow
   - tensorflow_probability
   - keras
-  - sklearn
+  - scikit-learn
